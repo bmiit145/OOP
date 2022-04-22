@@ -115,6 +115,7 @@ class Cricketer {
     public static void main(String[] args) {
         Cricketer c = new Cricketer();
         c.getfinal();
+        // DISPLAY PLATINUM CRICKETER
         c.displayPlatinum();
     }
 }
