@@ -46,7 +46,9 @@ class SavingsAccount extends Account {
  * CurrentAccount
  */
 class CurrentAccount extends Account {
-
+    void minimumBalance(){
+        
+    }
 }
 
 /**
