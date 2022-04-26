@@ -6,6 +6,5 @@
         "tuple": "cpp",
         "type_traits": "cpp",
         "utility": "cpp"
-    },
-    "githubPullRequests.remotes": []
+    }
 }

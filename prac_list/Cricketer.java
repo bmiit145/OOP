@@ -70,11 +70,10 @@ class Cric_Info {
 
     public void platinum() {
         if (category == "Platinum") {
-            System.out.println("\nCricketer Id :-\t" + c_id + "\n");
+            System.out.println("Cricketer Id :-\t" + c_id + "\n");
             System.out.println("Cricketer Name :-\t" + c_name + "\n");
             System.out.println("Cricketer Specialization :-\t" + Specialize + "\n");
             System.out.println("Cricketer Strike Rate :-\t" + CalculateSr() + "\n");
-            System.out.println("---------------------------------------------------------");
         }
     }
 
@@ -107,6 +106,7 @@ class Cricketer {
 
     void displayPlatinum() {
         System.out.println("\n\t-------------\t The Details Of Platinum Cricketer\t-------------\t\n");
+
         for (int i = 0; i < arr.length; i++) {
             arr[i].platinum(); // Platinum cricketer
         }
@@ -115,7 +115,6 @@ class Cricketer {
     public static void main(String[] args) {
         Cricketer c = new Cricketer();
         c.getfinal();
-        // DISPLAY PLATINUM CRICKETER
         c.displayPlatinum();
     }
 }
