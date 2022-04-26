@@ -88,7 +88,7 @@ class Cricketer {
 
         System.out.print("Enter the number of crickter :: \t"); // number of cricketer
         int n = sc.nextInt();
-
+ 
         arr = new Cric_Info[n]; // inisilization of array
     }
 
@@ -96,6 +96,7 @@ class Cricketer {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = new Cric_Info(); //
         }
+
         // Calling a method
 
         for (int i = 0; i < arr.length; i++) {
@@ -115,6 +116,6 @@ class Cricketer {
     public static void main(String[] args) {
         Cricketer c = new Cricketer();
         c.getfinal();
-        c.displayPlatinum();
+        c.displayPlatinum();    
     }
 }
